@@ -13,9 +13,9 @@ import os
 
 # Set up environment variables
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = "*"
 os.environ["USER_AGENT"] = "demo/0.1"
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "*"
 
 # Initialize LLM and vector store
 llm = ChatGroq(model="llama3-8b-8192")
